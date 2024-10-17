@@ -10,12 +10,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: url('slide2/background\ .png') no-repeat;
+}
+.home{
+    background: url('properties/background\ .png') no-repeat;
     background-size: cover;
     background-position: center;
+    min-height: 100vh;
 }
-
 .wrapper {
     width: 1300px;
     height: 600px;
@@ -98,6 +99,9 @@ p {
     opacity: 0.9;
 }
 
+.movie{
+    background-color: rgba(92, 15, 31, 255);
+}
 .container {
     max-width: 1200px; /* Adjust as needed */
     margin: 40px;
